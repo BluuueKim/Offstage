@@ -29,7 +29,7 @@
 </head>
 <body>
 
-    <img id="mainImage" src="poster.png" alt="Bookmark Concert">
+    <img id="mainImage" src="poster.png" alt="Offstage">
 
     <script>
         const imgElement = document.getElementById('mainImage');
@@ -38,7 +38,7 @@
             const currentSrc = imgElement.getAttribute('src');
             
             if (currentSrc === 'poster.png') {
-                imgElement.src = 'setlist.png';
+                imgElement.src = 'Setlist.png';
             } else {
                 imgElement.src = 'poster.png';
             }
